@@ -5,6 +5,8 @@ A [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) will help the det
 
 ![Example gameplay](./demo.png)
 
+![Scotland Yard gameboard](./gameboard.jpg)
+
 How do I play?
 --------------
 
