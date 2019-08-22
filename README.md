@@ -3,9 +3,7 @@ Where is Mr. X?
 
 A [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) will help the detectives track down a dangerous crook at large in London!
 
-![Example gameplay](./demo.png)
-
-![Scotland Yard gameboard](./gameboard.jpg)
+![Scotland Yard gameplay](./images/banner.jpg)
 
 How do I play?
 --------------
