@@ -1,0 +1,17 @@
+{
+  "name": "scotland-yard",
+  "version": "1.0.0",
+  "description": "Where is Mr. X? A Kalman filter will help the detectives track down a dangerous crook at large in London!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.1",
+    "lodash.orderby": "^4.6.0"
+  }
+}
