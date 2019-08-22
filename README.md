@@ -5,7 +5,10 @@ A [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) will help the det
 
 ![Example gameplay](./demo.png)
 
-To play, run `npm start`.
+How do I play?
+--------------
+
+To play, just run `npm start`! You’ll need Node 12 for the `Object.entries()` method.
 
 What’s a Kalman filter?
 -----------------------
@@ -14,7 +17,7 @@ Often in Artificial Intelligence and robotics, we have noisy information. We kno
 
 Usually in robotics, we have several unreliable sources of information — e.g. sensors — that we want to combine to get a reliable reading. That’s called **[Sensor Fusion](https://en.wikipedia.org/wiki/Sensor_fusion).**
 
-So a **Kalman filter** is a powerful (and simple!) sensor fusion technique: we keep track of every possible state Mr. X could have reached — we track his “ghosts” so to speak, called **belief states.** In a small game like Scotland Yard, we can get away with keeping track of all the ghosts: there are at most 199 places he could be after all!
+So a **[Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter)** is a powerful (and simple!) sensor fusion technique: we keep track of every possible state Mr. X could have reached — we track his “ghosts” so to speak, called **belief states.** In a small game like Scotland Yard, we can get away with keeping track of all the ghosts: there are at most 199 places he could be after all!
 
 But in a larger game space, it becomes prohibitively slow to keep track of all the ghosts, so instead we just keep a fixed number based on how likely that ghost was. That optimization is called **[Particle Filtering](https://en.wikipedia.org/wiki/Particle_filter).**
 
